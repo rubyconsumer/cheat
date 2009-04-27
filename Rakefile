@@ -19,8 +19,6 @@ PACKAGE_FILES = FileList.new do |fl|
   fl.include SOURCE_FILES
 end
 
-Gem.manage_gems
-
 desc "Default task"
 task :default => [ :package ]
 
